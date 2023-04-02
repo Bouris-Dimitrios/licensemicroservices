@@ -1,7 +1,9 @@
 package com.dbouris.license.model;
 
 
-public class License {
+import org.springframework.hateoas.RepresentationModel;
+
+public class License extends RepresentationModel<License> {
     private int id;
 
     private String description;
